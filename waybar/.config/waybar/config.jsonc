@@ -23,8 +23,8 @@
     "tooltip-format": "{time}"
   },
   "network": {
-    "format-wifi": "<span size='13000' foreground='#f5e0dc'>  </span>{essid}",
-    "format-ethernet": "<span size='13000' foreground='#f5e0dc'>󰤭  </span> Disconnected",
+    "format-wifi": "<span size='13000' foreground='#f5e0dc'> </span>{essid}",
+    "format-ethernet": "<span size='13000' foreground='#f5e0dc'> </span> Ethernet",
     "format-linked": "{ifname} (No IP) ",
     "format-disconnected": "<span size='13000' foreground='#f5e0dc'>  </span>Disconnected",
     "tooltip-format-wifi": "Signal Strenght: {signalStrength}%"
@@ -34,7 +34,7 @@
     "format": "{}",
     "format-en": "US",
     "format-hr": "HR",
-    "on-click": "hyprctl switchxkblayout cx-2.4g-wireless-receiver next",
+    "on-click": "hyprctl switchxkblayout all next",
   }, 
   "pulseaudio": {
       "format": "{icon}  {volume}%",
